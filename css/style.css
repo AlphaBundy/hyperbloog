@@ -1,15 +1,41 @@
 
 body{
-    color: deeppink;
+    color: rgb(70, 9, 41);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif ;
+    font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding:10px;
 }
-.container{
+#container{
     width: 70%;
-    padding: 1em;
+    padding: 0;
     text-align: left;
-    border: 1px solid rgba(41, 0, 41, 0.719);
+    border: 1px solid rgba(78, 78, 78, 0.719);
     margin: 0 auto;
+}
+#cabecera{
+    /* background-color: rgba(0, 119, 255, 0.87); */    
+    background: rgba(82,161,235,1);
+    background: -moz-linear-gradient(left, rgba(82,161,235,1) 0%, rgba(82,161,235,0.98) 9%, rgba(104,42,229,0.92) 39%, rgba(229,42,197,0.87) 64%, rgba(229,42,133,0.84) 76%, rgba(229,42,42,0.84) 93%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(82,161,235,1)), color-stop(9%, rgba(82,161,235,0.98)), color-stop(39%, rgba(104,42,229,0.92)), color-stop(64%, rgba(229,42,197,0.87)), color-stop(76%, rgba(229,42,133,0.84)), color-stop(93%, rgba(229,42,42,0.84)));
+    background: -webkit-linear-gradient(left, rgba(82,161,235,1) 0%, rgba(82,161,235,0.98) 9%, rgba(104,42,229,0.92) 39%, rgba(229,42,197,0.87) 64%, rgba(229,42,133,0.84) 76%, rgba(229,42,42,0.84) 93%);
+    background: -o-linear-gradient(left, rgba(82,161,235,1) 0%, rgba(82,161,235,0.98) 9%, rgba(104,42,229,0.92) 39%, rgba(229,42,197,0.87) 64%, rgba(229,42,133,0.84) 76%, rgba(229,42,42,0.84) 93%);
+    background: -ms-linear-gradient(left, rgba(82,161,235,1) 0%, rgba(82,161,235,0.98) 9%, rgba(104,42,229,0.92) 39%, rgba(229,42,197,0.87) 64%, rgba(229,42,133,0.84) 76%, rgba(229,42,42,0.84) 93%);
+    background: linear-gradient(to right, rgba(82,161,235,1) 0%, rgba(82,161,235,0.98) 9%, rgba(104,42,229,0.92) 39%, rgba(229,42,197,0.87) 64%, rgba(229,42,133,0.84) 76%, rgba(229,42,42,0.84) 93%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#52a1eb', endColorstr='#e52a2a', GradientType=1 );
+    box-shadow: 0px 2px 50px 0px rgba(0, 0, 0, 0.507);
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    color: rgb(255, 255, 255);
+}
+#cabecera span{
+    color: rgb(231, 147, 147);
+    font-weight: normal;
+    font-size: .8em;
+    padding-left: .8em;
+}
+#post{
+    padding: 1em;
 }
