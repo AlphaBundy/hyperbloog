@@ -12,6 +12,7 @@ body{
     padding: 0;
     text-align: left;
     border: 1px solid rgba(78, 78, 78, 0.719);
+    border-bottom-width: 0px;
     margin: 0 auto;
 }
 #cabecera{
@@ -38,4 +39,9 @@ body{
 }
 #post{
     padding: 1em;
+}
+#pie{
+    background-color: rgb(29, 59, 49);
+    text-align: center;
+    color: cadetblue;
 }
