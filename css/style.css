@@ -38,8 +38,7 @@ body{
     margin: 0;
     padding: 0.5em 0 0.5em 2em;
     color: rgb(255, 255, 255);
-    vertical-align: auto;
-    align-items: center;
+    
 }
 #cabecera span{
     color: rgb(231, 147, 147);
